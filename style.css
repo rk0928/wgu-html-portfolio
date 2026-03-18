@@ -1,50 +1,116 @@
+/* =========================
+   RESET
+========================= */
 * {
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* =========================
+   BODY
+========================= */
 body {
-font-family: Arial, sans-serif;
-background-color:#f4f4f4;
-color:#333;
-padding:20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
 }
 
+/* =========================
+   ID SELECTOR (WGU REQUIREMENT)
+========================= */
+#main-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #1a5276;
+}
+
+/* =========================
+   CLASS SELECTOR (WGU REQUIREMENT)
+========================= */
+.highlight {
+    color: #003366;
+    font-weight: bold;
+}
+
+/* =========================
+   HEADER
+========================= */
 header {
-background-color:#dbeafe;
-padding:20px;
-border:2px solid #333;
-margin-bottom:20px;
+    background-color: #dbeafe;
+    padding: 20px;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
+/* =========================
+   NAVIGATION
+========================= */
 nav {
-background-color:white;
-padding:10px;
-border:1px solid #999;
-margin-bottom:20px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #999;
+    margin-bottom: 20px;
 }
 
 nav a {
-color:#003366;
-text-decoration:none;
-margin-right:10px;
+    color: #003366;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
 }
 
 nav a:hover {
-color:red;
+    color: red;
 }
 
+/* =========================
+   MAIN CONTENT
+========================= */
 main {
-background-color:white;
-padding:20px;
-border:1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
 
+/* =========================
+   LIST STYLE (WGU REQUIREMENT)
+========================= */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* =========================
+   TABLE STYLING (BONUS)
+========================= */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #333;
+    text-align: left;
+}
+
+/* =========================
+   FOOTER
+========================= */
 footer {
-margin-top:20px;
-padding:10px;
-background-color:#dbeafe;
-text-align:center;
-border:1px solid #333;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dbeafe;
+    text-align: center;
+    border: 1px solid #333;
 }
